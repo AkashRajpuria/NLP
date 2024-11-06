@@ -1,0 +1,27 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data directories and temporary files
+data/
+*.csv
+*.json
+
+# Ignore model files and outputs
+outputs/
+*.pkl
+*.h5
+
+# Ignore environment files
+env/
+.venv/
+*.env
+
+# Ignore Docker and log files
+*.log
+*.pid
+docker-compose.override.yml
